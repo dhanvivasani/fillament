@@ -1,28 +1,33 @@
 #include<stdio.h>
 
-main()
+void main()
 {
-	char email;  "kevinpatel24gamil.com";
-	char password; "kevin2412";
-	char emai[100];
-	char pass[100];
 	
-	printf("enter the email=");
-	scanf("%c",&emai);
+	char A[100],B[100];
 	
-	printf("\nenter the password\n=");
-	scanf("%c",&pass);
+	printf("enter your username:=");
+	gets(A);
+	printf("enter your pass:=");
+	gets(B);
 	
-	if((email, "emai") == 0)
-	  { 
-	       if(password,"pass"== 0)
-	       {
-	       	printf("\nUser successfully logged in... ");
-		   }
-		   else
-		   {
-		   	printf("your password is rong");
-		   }
-	  }
+	if (strcmp(A,"dhanvi")==0)
+	{
+	  if(strcmp(B,"dhanvi@1104")==0)
+    	{
+		
+		printf("user login successfully......");
+	    }
+        	else
+     	{
+		
+		printf("your enter pass is invaild");
+     	}
+	
+    }
+ else
+{
+	printf("your enter username is invaild");
 }
 
+
+}
